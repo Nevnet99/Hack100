@@ -1,0 +1,56 @@
+.MainPage {
+  min-height: 85vh;
+  width: 100%;
+  margin-top: 6em;
+  padding-top: 7em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  z-index: 1;
+}
+
+.heroImage {
+  background: url("../assets/MainHero.jpeg");
+  background-repeat: none;
+  background-size: cover;
+  filter: brightness(0.6);
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  background-position: 0% 60%;
+}
+
+.inline-buttons > button {
+  margin: 0 1em;
+  background: none;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1em;
+  border: none;
+  color: white;
+  transition: 0.6s all;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 0.5em;
+  min-width: 130px;
+  border-radius: 4px;
+}
+.inline-buttons > button:hover {
+  background: white;
+  color: black;
+}
+
+.MainPageTitle {
+  margin-bottom: 0;
+}
+
+.MainPageDetails {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

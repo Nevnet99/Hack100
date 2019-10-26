@@ -3,8 +3,18 @@ import "../styles/MainPage.css";
 
 function MainPage() {
   return (
-    <div>
-      <h1>MainPage</h1>
+    <div className="MainPage">
+      <h1 className="MainPageTitle">
+        Weekly Reminders, Delivered to Your Phone.
+      </h1>
+      <p className="MainPageDetails">
+        We use your preferences, to build a list of events tailored for you.
+      </p>
+      <div className="inline-buttons">
+        <button>Signup </button>
+        or
+        <button> Login</button>
+      </div>
     </div>
   );
 }
