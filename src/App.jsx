@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 
 import { Switch, Route } from "react-router-dom";
 import Signup from "./components/Signup";
+import UserPreferences from "./components/UserPreferences";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route exact path="/SignUp">
           <Signup />
+        </Route>
+        <Route exact path="/Preferences">
+          <UserPreferences />
         </Route>
       </Switch>
     </div>
