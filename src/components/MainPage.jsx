@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 function MainPage() {
   return (
     <div className="MainPage">
+      <div className="heroImage"></div>
       <h1 className="MainPageTitle">
         Weekly Reminders, Delivered to Your Phone.
       </h1>
@@ -13,11 +14,11 @@ function MainPage() {
       </p>
       <div className="inline-buttons">
         <Link to="/SignUp">
-          <button>Signup </button>
+          <button className="mainpage-buttons">Signup </button>
         </Link>
         or
-        <Link to="/login">
-          <button> Login</button>
+        <Link to="/Login">
+          <button className="mainpage-buttons"> Login</button>
         </Link>
       </div>
     </div>

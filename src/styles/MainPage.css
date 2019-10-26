@@ -25,7 +25,7 @@
   background-position: 0% 60%;
 }
 
-.inline-buttons > button {
+.mainpage-buttons {
   margin: 0 1em;
   background: none;
   margin-left: 1em;
@@ -41,7 +41,7 @@
   min-width: 130px;
   border-radius: 4px;
 }
-.inline-buttons > button:hover {
+.mainpage-buttons:hover {
   background: white;
   color: black;
 }

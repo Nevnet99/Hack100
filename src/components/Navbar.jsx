@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="Navbar">
-      <div className="heroImage"></div>
       <div className="Logo">Eventifind</div>
       <div className="ListOfButtons">
         <Link to="/">
