@@ -9,6 +9,7 @@
   flex-direction: column;
   color: white;
   z-index: 1;
+  background: rgb(226, 224, 224);
 }
 
 .heroImage {
