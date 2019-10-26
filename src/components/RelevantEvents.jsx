@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import "../styles/MainPage.css";
+import "../styles/RelevantEvents.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import RelevantEvents from "./RelevantEvents";
 
-function MainPage() {
+function RelevantEvents() {
   const [relevantEvents, setRelevantEvents] = useState([]);
   useEffect(() => {
     axios
@@ -20,26 +19,27 @@ function MainPage() {
   }, []);
 
   return (
-    <div className="MainPage">
-      <div className="heroImage"></div>
-      <h1 className="MainPageTitle">
-        Weekly Reminders, Delivered to Your Phone.
-      </h1>
-      <p className="MainPageDetails">
-        We use your preferences, to build a list of events tailored for you.
-      </p>
-      <div className="inline-buttons">
-        <Link to="/SignUp">
-          <button className="mainpage-buttons">Signup </button>
-        </Link>
-        or
-        <Link to="/Login">
-          <button className="mainpage-buttons"> Login</button>
-        </Link>
+    <div className="RelevantEvents">
+      <div className="eventContainer">
+        <h1>Relevant Events.</h1>
+        <div className="events-section">
+          {relevantEvents.map(event => {
+            return (
+              <div className="event-card">
+                <h1>{event.name}</h1>
+                <p>
+                  {" "}
+                  {event.descriptions[0]
+                    ? event.descriptions[0].descriptions
+                    : null}
+                </p>
+              </div>
+            );
+          })}
+        </div>
       </div>
-      <RelevantEvents />
     </div>
   );
 }
 
-export default MainPage;
+export default RelevantEvents;
