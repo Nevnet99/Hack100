@@ -8,6 +8,8 @@ import Signup from "./components/Signup";
 import UserPreferences from "./components/UserPreferences";
 
 function App() {
+  const handleUserLogin = () => {};
+
   return (
     <div className="App">
       <Navbar />
