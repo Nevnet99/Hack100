@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/MainPage.css";
+import { Link } from "react-router-dom";
 
 function MainPage() {
   return (
@@ -11,9 +12,13 @@ function MainPage() {
         We use your preferences, to build a list of events tailored for you.
       </p>
       <div className="inline-buttons">
-        <button>Signup </button>
+        <Link to="/SignUp">
+          <button>Signup </button>
+        </Link>
         or
-        <button> Login</button>
+        <Link to="/login">
+          <button> Login</button>
+        </Link>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.ListOfButtons > button {
+.custom-button {
   background: none;
   margin-left: 1em;
   margin-right: 1em;
