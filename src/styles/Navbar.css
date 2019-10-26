@@ -1,0 +1,35 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  background: lightslategray;
+  padding: 1.5em;
+}
+
+.ListOfButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5em;
+}
+
+.ListOfButtons > button {
+  background: none;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1.2em;
+  border: none;
+  color: white;
+  transition: 0.6s all;
+  outline: none;
+  cursor: pointer;
+}
+
+.ListOfButtons > button:hover {
+  color: black;
+}
+
+.Logo {
+  font-family: "Pacifico", cursive;
+  color: white;
+  font-size: 1.8em;
+}
