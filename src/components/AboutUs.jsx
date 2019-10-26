@@ -15,6 +15,14 @@ Our service collates details of local events happening in your area, based on yo
 <br /><br />
 If you see an event you're interested in, just reply to the text message, quoting the name of the event, and we'll put you in touch with a contact at the event that will contact you in advance to make sure that everything is in place to make your visit comfortable and enjoyable.
 </p1> 
+<br />
+<h2 className="creators"> Founders </h2>
+<p2 className="creatorNames"> 
+Nadia Amroon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Luke Brannagan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+Cai Jenkins &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Jo Smith 
+ </p2>
  </div>
 
     )};
