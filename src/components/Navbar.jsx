@@ -10,7 +10,7 @@ function Navbar() {
         <Link to="/">
           <button className="custom-button"> Home </button>
         </Link>
-        <Link to="/Profile/:id">
+        <Link to="/ProfilePage">
           <button className="custom-button"> Profile </button>
         </Link>
         <Link to="/Preferences">
