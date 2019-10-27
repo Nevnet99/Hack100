@@ -22,8 +22,9 @@ function Signup() {
   return (
     <div className="Signup">
       <div className="userProfile">
+        <h1 className="signUp"> Sign Up</h1>
         <label className="usernameInput">
-          USERNAME:
+          Username:
           <input
             placeholder="Enter your Username..."
             type="text"
@@ -34,7 +35,7 @@ function Signup() {
         </label>
 
         <label className="passwordInput">
-          PASSWORD:
+          Password:
           <input
             placeholder="Enter your Password..."
             type="password"
@@ -43,9 +44,9 @@ function Signup() {
             onChange={handleChange}
           />
         </label>
-        <button onClick={handleSubmit}>Submit</button>
+        <button className="button" onClick={handleSubmit}>Create Account</button>
         <Link to="/Login">
-          <button>Already have an account?</button>
+          <button className="button">Already have an account?</button>
         </Link>
       </div>
     </div>
