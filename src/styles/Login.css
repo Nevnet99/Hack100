@@ -1,0 +1,32 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: skyblue;
+}
+
+.userNameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passWordContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginModal {
+  background: white;
+  border-radius: 4px;
+  padding: 2em;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em;
+}
