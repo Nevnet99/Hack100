@@ -18,7 +18,6 @@ function MainPage() {
         setRelevantEvents(response.data.splice(0, 15));
       });
   }, []);
-
   return (
     <div className="MainPage">
       <div className="heroImage"></div>
