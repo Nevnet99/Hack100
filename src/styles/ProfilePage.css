@@ -67,3 +67,13 @@
   justify-self: center;
   align-self: center;
 }
+
+.likesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+.likesSection > p {
+  margin: 0.5em;
+}
