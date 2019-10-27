@@ -28,16 +28,20 @@ function UserPreferences() {
     <div className="UserPreferences">
       {pane === 0 ? (
         <div className="pane1">
-          <h1>First, Tell us a bit about yourself</h1>
-          <label>
-            First name:
-            <input type="text" name="firstName" onChange={handleChange} />
-          </label>
-          <label>
-            Last name:
-            <input type="text" name="lastName" onChange={handleChange} />
-          </label>
-          <button className="button" onClick={() => setPane(1)}>Next</button>
+          <h1 className="pane1-title">First, Tell us a bit about yourself</h1>
+          <div className="pane1-inputs">
+            <label>
+              First name:
+              <input type="text" name="firstName" onChange={handleChange} />
+            </label>
+            <label>
+              Last name:
+              <input type="text" name="lastName" onChange={handleChange} />
+            </label>
+          </div>
+          <button className="button" onClick={() => setPane(1)}>
+            Next
+          </button>
         </div>
       ) : null}
 
@@ -95,17 +99,24 @@ function UserPreferences() {
               />
             </label>
           </div>
-          <button className="button" onClick={() => setPane(2)}>Next</button>
+          <button className="button" onClick={() => setPane(2)}>
+            Next
+          </button>
         </div>
       ) : null}
 
       {pane === 2 ? (
         <div className="pane3">
           {}
-          <h1>You're all Done!</h1>
+          <h1 className="pane3Title">You're all Done!</h1>
           <h2>Welcome to Eventifind {`${answer.firstName}`}.</h2>
           <Confetti></Confetti>
-          <button className="button" onClick={() => history.push("/")}>Finished!</button>
+          <button
+            className="button userPreferencesbutton3"
+            onClick={() => history.push("/")}
+          >
+            Finished!
+          </button>
         </div>
       ) : null}
     </div>
