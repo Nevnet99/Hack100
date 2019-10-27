@@ -1,53 +1,50 @@
-body{
-    background-color: lightblue;
+body {
+  background-color: lightblue;
 }
 
 .cai {
-    color: black;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 8px
+  color: black;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font: arial;
-    background-color: white;
-    display: table-cell;
-    position: fixed;
-    top: 17%;
-    left: 42%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font: arial;
+  background-color: white;
+  margin-top: 6em;
 }
 .title {
-    color: black;
-    font-size: 18px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 8px
+  color: black;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
 }
 .list {
-    color: black;
-    font-size: 16px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 8px
+  color: black;
+  font-size: 16px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
 }
 .image {
-    width: 100%;
+  width: 100%;
 }
 button {
-    border: 2px solid black;
-    outline: 0;
-    display: inline-block;
-    padding: 20px;
-    color: black;
-    background-color: white;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-    
+  border: 2px solid black;
+  outline: 0;
+  display: inline-block;
+  padding: 20px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
-button:hover, a:hover {
-    opacity: 0.7;
-  }
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
