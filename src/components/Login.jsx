@@ -1,6 +1,3 @@
-
-import React from 'react';
-import "../styles/Login.css";
 import React, { useState } from "react";
 import "../styles/Login.css";
 import { Link } from "react-router-dom";
@@ -16,7 +13,6 @@ function Login() {
     <div className="loginContainer">
       <div className="loginModal">
       <h1 className="login"> Log in</h1>
-
         <div className="usernameContainer">
           <label for="uname">Username:</label>
           <input
