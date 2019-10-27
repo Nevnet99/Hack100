@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Signup.css";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 
 function Signup() {
   const [username, setUsername] = useState("");
@@ -44,6 +44,9 @@ function Signup() {
           />
         </label>
         <button onClick={handleSubmit}>Submit</button>
+        <Link to="/Login">
+          <button>Already have an account?</button>
+        </Link>
       </div>
     </div>
   );

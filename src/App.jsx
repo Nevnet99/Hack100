@@ -3,6 +3,7 @@ import "./styles/App.css";
 import MainPage from "./components/MainPage";
 import Navbar from "./components/Navbar";
 import ProfilePage from "./components/ProfilePage";
+import Login from "./components/Login";
 
 import { Switch, Route } from "react-router-dom";
 import Signup from "./components/Signup";
@@ -20,6 +21,10 @@ function App() {
         </Route>
         <Route exact path="/SignUp">
           <Signup />
+        </Route>
+
+        <Route exact path="/Login">
+          <Login />
         </Route>
         <Route exact path="/Preferences">
           <UserPreferences />
