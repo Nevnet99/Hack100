@@ -7,16 +7,20 @@ function ProfilePage2() {
     <div>
       <div className="card">
         <img src={person} alt="Avatar" className="image" />
-        <h1> Cai Jenko </h1>
-        <p class="title"> Manchester </p>
+        <h1 className="cai"> Cai Jenko </h1>
+        <h2 class="title"> Manchester </h2>
+        <h3> 
         <ul className="list">
           <li> Football </li>
           <li> Rock Music </li>
           <li> Chicken </li>
         </ul>
+        </h3>
 
         <p>
+          <h4>
           <button>SMS me events in my area</button>
+          </h4>
         </p>
       </div>
     </div>
