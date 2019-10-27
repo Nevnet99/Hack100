@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/App.css";
 import MainPage from "./components/MainPage";
 import Navbar from "./components/Navbar";
-import ProfilePage from "./components/ProfilePage";
+import ProfilePage from "./components/ProfilePage2";
 import Login from "./components/Login";
 
 import { Switch, Route } from "react-router-dom";
