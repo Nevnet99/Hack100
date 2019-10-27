@@ -41,6 +41,7 @@
   padding: 0.5em;
   min-width: 130px;
   border-radius: 4px;
+  max-width: 0.3em;
 }
 .mainpage-buttons:hover {
   background: white;
