@@ -44,10 +44,14 @@ function Signup() {
             onChange={handleChange}
           />
         </label>
-        <button className="button" onClick={handleSubmit}>Create Account</button>
-        <Link to="/Login">
-          <button className="button">Already have an account?</button>
-        </Link>
+        <div className="signupButtons">
+          <button className="button" onClick={handleSubmit}>
+            Create Account
+          </button>
+          <Link to="/Login">
+            <button className="button">Already have an account?</button>
+          </Link>
+        </div>
       </div>
     </div>
   );
