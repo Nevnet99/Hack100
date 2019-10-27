@@ -3,9 +3,8 @@ import "./styles/App.css";
 import MainPage from "./components/MainPage";
 import Navbar from "./components/Navbar";
 import AboutUs from "./components/AboutUs";
-import ProfilePage from "./components/ProfilePage2";
+import ProfilePage2 from "./components/ProfilePage2";
 import Login from "./components/Login";
-
 
 import { Switch, Route } from "react-router-dom";
 import Signup from "./components/Signup";
@@ -31,7 +30,7 @@ function App() {
           <UserPreferences />
         </Route>
         <Route exact path="/ProfilePage">
-          <ProfilePage />
+          <ProfilePage2 />
         </Route>
         <Route exact path="/AboutUs">
           <AboutUs />
