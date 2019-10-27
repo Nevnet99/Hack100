@@ -10,6 +10,9 @@ function Navbar() {
         <Link to="/">
           <button className="custom-button"> Home </button>
         </Link>
+        <Link to="/AboutUs">
+          <button className="custom-button"> About Us </button>
+        </Link>
         <Link to="/ProfilePage">
           <button className="custom-button"> Profile </button>
         </Link>
