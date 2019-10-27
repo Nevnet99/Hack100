@@ -34,9 +34,9 @@ function Login() {
             required
           />
         </div>
-        <button type="submit">Login</button>
+        <button className="button" type="submit">Login</button>
         <Link to="/Signup">
-          <button type="submit">Don't have an account ?</button>
+          <button className="button" type="submit">Don't have an account ?</button>
         </Link>
       </div>
     </div>
