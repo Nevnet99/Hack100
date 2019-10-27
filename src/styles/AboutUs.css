@@ -1,5 +1,5 @@
 .background {
-    background-color: lightskyblue;
+    background-color: none;
     background-repeat: none;
     background-size: cover;
     height: auto;
@@ -12,9 +12,24 @@
     align-items: left;
     flex-direction: column;
 }
+.friends {
+    height: 400px;
+    width: 1800px;
+    position: top;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+
+}
 .title {
     color: white;
     text-align: center;
+    font-size: 100px;
 }
 .paragraph {
     color: white;
@@ -29,5 +44,20 @@
   .creatorNames {
     color: white;
     text-align: center;
+  }
+  .bold {
+      font-size: 20px;
+  }
+  .creatorNames:hover {
+    background-color: #B48BF3;
+  }
+  .creatorNames1:hover {
+    background-color: #B48BF3;
+  }
+  .creatorNames2:hover {
+    background-color: #B48BF3;
+  }
+  .creatorNames3:hover {
+    background-color: #B48BF3;
   }
   
