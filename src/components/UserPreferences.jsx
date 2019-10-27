@@ -30,14 +30,14 @@ function UserPreferences() {
         <div className="pane1">
           <h1>First, Tell us a bit about yourself</h1>
           <label>
-            FIRSTNAME:
+            First name:
             <input type="text" name="firstName" onChange={handleChange} />
           </label>
           <label>
-            LASTNAME:
+            Last name:
             <input type="text" name="lastName" onChange={handleChange} />
           </label>
-          <button onClick={() => setPane(1)}>Next</button>
+          <button className="button" onClick={() => setPane(1)}>Next</button>
         </div>
       ) : null}
 
@@ -95,7 +95,7 @@ function UserPreferences() {
               />
             </label>
           </div>
-          <button onClick={() => setPane(2)}>Next</button>
+          <button className="button" onClick={() => setPane(2)}>Next</button>
         </div>
       ) : null}
 
@@ -105,7 +105,7 @@ function UserPreferences() {
           <h1>You're all Done!</h1>
           <h2>Welcome to Eventifind {`${answer.firstName}`}.</h2>
           <Confetti></Confetti>
-          <button onClick={() => history.push("/")}>Finished!</button>
+          <button className="button" onClick={() => history.push("/")}>Finished!</button>
         </div>
       ) : null}
     </div>
