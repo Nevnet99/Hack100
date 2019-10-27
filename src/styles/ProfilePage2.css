@@ -1,13 +1,11 @@
 body{
     background-color: lightblue;
 }
-h1, h2, h3, h4, h5 {
-    border-bottom: 1px solid #ccc;
-    color: #3F51B5;
-    padding-bottom: 8px
-  }
+
 .cai {
     color: black;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -24,11 +22,15 @@ h1, h2, h3, h4, h5 {
 .title {
     color: black;
     font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px
 }
 .list {
     color: black;
     font-size: 16px;
     text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px
 }
 .image {
     width: 100%;
