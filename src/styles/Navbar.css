@@ -13,6 +13,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 5em;
+}
+.ListOfButtons * {
+  margin: 0.5em;
 }
 
 .custom-button {

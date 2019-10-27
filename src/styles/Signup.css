@@ -13,7 +13,6 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1em;
-  padding: 0.5em;
   min-width: 300px;
 }
 .usernameInput > input {
@@ -22,14 +21,15 @@
 
 .passwordInput {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+
   font-size: 1em;
 }
 
 .passwordInput > input {
   min-width: 200px;
-} 
+}
 
 .userProfile {
   background: none;
@@ -37,10 +37,15 @@
   border-radius: 4px;
   min-height: 30vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
+  background: white;
+  text-align: center;
 }
 .button {
   background: none;
+}
+.signupButtons {
+  display: flex;
+  justify-content: space-evenly;
 }
