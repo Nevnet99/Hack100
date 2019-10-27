@@ -22,6 +22,9 @@ function App() {
         <Route exact path="/SignUp">
           <Signup />
         </Route>
+        <Route exact path="/Login">
+          <Signup />
+        </Route>
         <Route exact path="/Preferences">
           <UserPreferences />
         </Route>

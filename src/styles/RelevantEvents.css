@@ -1,0 +1,21 @@
+.event-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  padding: 0.1em;
+  color: black;
+  margin: 1em;
+  width: 100%;
+}
+
+.eventContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.RelevantEvents {
+  margin-top: 28em;
+}
